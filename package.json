@@ -81,10 +81,7 @@
     "build:cf": "npm run build:cds && npm run cleanup:ts && npm run build:ts && npm run build --prefix app/businesspartners",
     "deploy:live": "mbt build -e live.mtaext --mtar BPVerification.mtar && cf deploy mta_archives/BPVerification.mtar",
     "deploy:trial": "mbt build -e trial.mtaext --mtar BPVerification.mtar && cf deploy mta_archives/BPVerification.mtar",
-<<<<<<< HEAD
-=======
     "undeploy": "cf undeploy BPVerification --delete-service-keys --delete-services --delete-service-brokers",
->>>>>>> 14224b0 (changes)
     "build:ts": "tsc",
     "build:cds": "cds build --production",
     "cleanup:ts": "npx rimraf ./gen/srv/srv/**/*.ts",
