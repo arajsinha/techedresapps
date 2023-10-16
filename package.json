@@ -30,7 +30,7 @@
     "hdb": "^0.19.5",
     "lodash": "^4.17.21",
     "passport": "^0.6.0",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.5",
     "supertest": "^6.3.3",
     "tar": "^6.1.13",
     "typescript": "^5.0.2"
